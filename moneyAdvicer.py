@@ -12,4 +12,4 @@ def pegarcotacoes(cod_moeda):
         print('Código da moeda inválido!')
         return None
 
-# print(pegarcotacoes('GBP'))
+print(pegarcotacoes('GBP'))

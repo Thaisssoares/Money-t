@@ -1,8 +1,9 @@
 from moneyAdvicer import pegarcotacoes
 import PySimpleGUI as psg
-
+psg.theme('Dark Blue ')
+psg.popup('Deseja continuar,aperte OK')
 layout = [
-    [psg.Text("Pegar Cotação de Moeda:")],
+    [psg.Text("Pegar Cotação de Moeda:",)],
     [psg.InputText(key="nomeCotacao")],
     [psg.Button("Pegar Cotação"), psg.Button("Cancelar")],
     [psg.Text("", key="texto_cotacao")],
